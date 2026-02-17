@@ -1,0 +1,51 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --header-height: 120px;
+}
+
+#title-div {
+  background-color: rgb(19, 19, 19);
+  height: var(--header-height);
+  font-size: 2em;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 0.5em;
+}
+
+#menu-btn {
+  font-size: 2em;
+  padding-left: 0.25em;
+}
+
+#menu-panel {
+  background-color: rgb(19, 19, 19);
+  width: 70%;
+
+  top: calc(var(--header-height) + 0.1px);
+  height: 4 0vh;
+  position: absolute;
+}
+
+#search-container {
+  display: flex;
+}
+
+#search-button {
+  padding: 5px;
+  background-color: transparent;
+  border: none;
+}
+#Layer_1 {
+  padding-top: 1vh;
+  background-color: transparent;
+  border: none;
+  height: 1em;
+  width: 2em;
+}
