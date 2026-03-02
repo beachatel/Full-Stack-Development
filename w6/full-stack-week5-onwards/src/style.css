@@ -1,0 +1,29 @@
+:root {
+  --header-height: 100px;
+}
+html {
+  scrollbar-gutter: auto;
+}
+body {
+  padding: 0%;
+  margin: 0%;
+}
+
+#content-div {
+  display: flex;
+  justify-content: center;
+}
+
+#daily-container {
+  display: block;
+  padding: 2vw;
+  font-size: 2em;
+  width: 100vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#tile {
+  justify-items: center;
+  align-items: center;
+  height: fit-content;
+}

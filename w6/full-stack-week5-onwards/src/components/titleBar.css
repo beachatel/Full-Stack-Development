@@ -1,0 +1,9 @@
+#title-div {
+  background-color: rgb(241, 235, 235);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--header-height);
+  padding-left: 1rem;
+}
