@@ -1,0 +1,9 @@
+#search-container {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  display: flex;
+}
+
+#search-button {
+  padding: 5px;
+}
