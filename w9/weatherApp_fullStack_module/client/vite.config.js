@@ -1,0 +1,23 @@
+import { defineConfig } from "vite";
+
+export default defineConfig({
+  server: {
+    proxy: {
+      "/weather": {
+        target: "http://localhost:3000",
+        changeOrigin: true,
+        secure: false,
+      },
+      "/addFavourite": {
+        target: "http://localhost:3000",
+        changeOrigin: true,
+        secure: false,
+      },
+      "/getFavourites": {
+        target: "http://localhost:3000",
+        changeOrigin: true,
+        secure: false,
+      },
+    },
+  },
+});

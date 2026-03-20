@@ -1,0 +1,36 @@
+#menu-btn {
+  display: flex;
+  font-size: 30px;
+  margin-right: 1rem;
+  margin-left: auto;
+  cursor: pointer;
+  user-select: none;
+}
+
+#menu-panel.large {
+  position: absolute;
+  text-align: end;
+  padding-right: 1rem;
+  min-width: 220px;
+  background-color: burlywood;
+  top: var(--header-height);
+  right: 0rem;
+  left: 0rem;
+  height: calc(100vh - var(--header-height));
+  box-sizing: border-box;
+  user-select: none;
+}
+
+#menu-panel.small {
+  position: absolute;
+  min-width: 220px;
+  background-color: burlywood;
+  top: var(--header-height);
+  right: 0rem;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+a {
+  display: block;
+}
