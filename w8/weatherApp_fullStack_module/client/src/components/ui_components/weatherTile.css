@@ -1,0 +1,16 @@
+#daily-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+}
+
+.weather-tile-div {
+  border-style: solid;
+  background-color: aqua;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}

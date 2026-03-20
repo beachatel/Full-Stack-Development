@@ -1,0 +1,9 @@
+#title-div {
+  background-color: darkcyan;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--header-height);
+  padding-left: 1rem;
+}
