@@ -1,5 +1,5 @@
 {
-  "name": "bike-usability",
+  "name": "beryl-geojson",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -12,6 +12,6 @@
     "vite": "^8.0.1"
   },
   "dependencies": {
-    "cors": "^2.8.6"
+    "leaflet": "^1.9.4"
   }
 }
