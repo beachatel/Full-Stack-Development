@@ -24,4 +24,8 @@ dist-ssr
 *.sln
 *.sw?
 *.env
+*.db
 
+/assessment/tests/
+/assessment/ux/
+/assessment/brief.pdf
